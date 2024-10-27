@@ -7,6 +7,8 @@
 - [Loika Arseni](https://github.com/loikaar)
 - [Sbarbaro Steven](https://github.com/xflappy)
 
+## Video
+https://polybox.ethz.ch/index.php/s/RKFzqX2ubVlIgmQ
 
 ## Abstract
 This project performs binary classification of steel beam bars by combining machine vision techniques with deep learning model. First task involves data cleaning using machine vision approaches. Next, a convolution-deconvolution architecture is employed for key corner detection, followed by an image classifier. Both corner detection and classification utilize pre-trained models from TorchVision.
