@@ -1,0 +1,9 @@
+{
+  "name": "Code",
+  "version": "1.94.2",
+  "private": true,
+  "overrides": {
+    "node-gyp-build": "4.8.1"
+  },
+  "type": "module"
+}
