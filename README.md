@@ -30,3 +30,26 @@ pip install -r requirements.txt
 ```
 ## Project Directory Structure
 
+/THIS_STUDIO
+├── .lightning_studio
+│   ├── dataset
+│   ├── lightning_logs
+│   ├── models
+│   └── plots
+├── .gitignore
+├── config.py
+├── dataloader.py
+├── dataset_access.txt
+├── gaussian_point_finder.py
+├── guidelines.pdf
+├── inference.py
+├── LICENSE.md
+├── patch_classifier.ipynb
+├── patch_classifier.py
+├── point_finder_training.ipynb
+├── predictor.py
+├── Project Proposal Duferco.pdf
+├── README.md
+├── requirements.txt
+└── utils.py
+
