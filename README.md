@@ -31,12 +31,27 @@ pip install -r requirements.txt
 ## Project Directory Structure
 
 ```
-/THIS_STUDIO 
-├── .lightning_studio
-│   ├── dataset
-│   ├── lightning_logs
-│   ├── models
-│   └── plots
+THIS_STUDIO/
+├── .lightning_studio/
+│   ├── on_start.sh
+│   └── on_stop.sh
+├── dataset/
+│   ├── export1.csv
+│   ├── export2.csv
+│   ├── export3.csv
+│   └── test_set.csv
+├── lightning_logs/
+│   └── performance_final/
+│       └── events.out.tfevents.1730021584.ip-10-19-90-222
+├── models/
+│   ├── Final_classifier.pth
+│   └── gaussian_points_finder.pth
+├── plots/
+│   ├── confusion_matrix.png
+│   ├── Filtered.jpg
+│   ├── Filtered2.jpg
+│   ├── rgb.jpg
+│   └── test.jpg
 ├── .gitignore
 ├── config.py
 ├── dataloader.py
@@ -45,13 +60,11 @@ pip install -r requirements.txt
 ├── guidelines.pdf
 ├── inference.py
 ├── LICENSE.md
-├── patch_classifier.ipynb
 ├── patch_classifier.py
 ├── point_finder_training.ipynb
 ├── predictor.py
-├── Project Proposal Duferco.pdf
+├── Project_Proposal_Duferco.pdf
 ├── README.md
-├── requirements.txt
-└── utils.py
+└── requirements.txt
 ```
 
