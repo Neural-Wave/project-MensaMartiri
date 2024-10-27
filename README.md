@@ -30,7 +30,8 @@ pip install -r requirements.txt
 ```
 ## Project Directory Structure
 
-/THIS_STUDIO
+```
+/THIS_STUDIO 
 ├── .lightning_studio
 │   ├── dataset
 │   ├── lightning_logs
@@ -52,4 +53,5 @@ pip install -r requirements.txt
 ├── README.md
 ├── requirements.txt
 └── utils.py
+```
 
