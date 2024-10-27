@@ -1,0 +1,2 @@
+Hello, the dataset is uploaded as a AWS Bucket in your teamspace, 
+to access it you can cd into /teamspace/s3_connections/dtp-sbm-segmentation-video-tasks-bars-stopper-alignment-images-hackaton-usi  
